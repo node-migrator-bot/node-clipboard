@@ -9,7 +9,7 @@ npm install node-clipboard
 ```
 
 ```javascript
-var clipboard = require('node-clipboard');
+var clipboard = require('clipboard');
 
 // _Read_
 var fromClipboard = clipboard.read();     // defaults to ascii
