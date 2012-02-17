@@ -34,5 +34,17 @@ clipboard.clear();
 var formats = clipboard.iterate(function(format, formatName, isCustom){
 	return formatName;
 });
+
+
+
+// _JavaScript Objects_
+
+// copies a v8 handle to the clipboard, not serialized
+// also copies in the util.inspect text into 'ascii'
+clipboard.write({ realJSObject: true });
+
+// this will CRASH node if you try to paste it into another node process
+var obj = clipboard.read('jsobject');
+
 ```
 
