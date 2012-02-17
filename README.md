@@ -5,7 +5,7 @@ Easy to use utility for reading and writing to the system clipboard.
 # usage
 
 ```
-npm install node-clipboard
+npm install clipboard
 ```
 
 ```javascript

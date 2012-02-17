@@ -2,7 +2,7 @@
   "author": "Brandon Benvie <brandon@bbenvie.com> (http://bbenvie.com)",
   "name": "clipboard",
   "description": "Easy to use utility for reading and writing to the system clipboard.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/Benvie/node-clipboard.git"
